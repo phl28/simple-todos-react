@@ -110,6 +110,7 @@ header {
   padding-right: 16px;
   margin-block-start: 0;
   margin-block-end: 0;
+  font-size: 1.2em;
 }
 
 .tasks > li {
@@ -180,6 +181,21 @@ header {
 
   margin: 8px 16px 0;
   font-weight: bold;
+}
+
+.logout {
+  display: flex;
+  box-sizing: border-box;
+  align-self: flex-end;
+
+  margin: 8px 16px 0;
+  font-weight: bold;
+  font-size: 0.9em
+}
+
+.logout > button {
+  background-color: #03346e;
+  border-radius: 10px;
 }
 
 .github-btn {
