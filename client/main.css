@@ -121,6 +121,7 @@ header {
 
 .tasks > li > span {
   flex-grow: 1;
+  padding: 16px;
 }
 
 .tasks > li > button {
